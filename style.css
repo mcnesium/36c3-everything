@@ -28,6 +28,10 @@ article * {
 article.time {
     background: none;
     justify-content: center;
+    width: 100% !important;
+    width: -moz-available !important;
+    width: -webkit-fill-available !important;
+    width: fill-available !important;
 }
 article.time p {
     text-align: center;
